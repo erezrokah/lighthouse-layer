@@ -66,14 +66,12 @@ const runLighthouse = async url => {
     const options = {
       port: chrome.port,
       logLevel: 'info',
-      output: 'html',
     };
 
     log.setLevel(options.logLevel);
 
-    const { report: html, lhr } = await lighthouse(url, options);
-    const { audits } = lhr;
-    return { audits, html };
+    const results = await lighthouse(url, options);
+    return results;
   } finally {
     if (chrome) {
       await chrome.kill();
