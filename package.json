@@ -9,7 +9,7 @@
   "scripts": {
     "deploy": "serverless deploy",
     "remove": "serverless remove",
-    "postinstall": "cd nodejs && yarn"
+    "postinstall": "cd layer/nodejs && yarn"
   },
   "author": "Erez Rokah",
   "license": "MIT",

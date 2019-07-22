@@ -8,7 +8,7 @@ provider:
 
 layers:
   lighthouse:
-    path: ./
+    path: ./layer
     description: Layer with all the required dependencies to run google lighthouse
     compatibleRuntimes:
       - nodejs8.10
