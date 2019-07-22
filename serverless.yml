@@ -1,0 +1,16 @@
+service: lighthouse-layer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'us-east-1'}
+
+layers:
+  lighthouse:
+    path: ./
+    description: Layer with all the required dependencies to run google lighthouse
+    compatibleRuntimes:
+      - nodejs8.10
+    licenseInfo: MIT
+    retain: true
