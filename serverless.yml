@@ -11,6 +11,6 @@ layers:
     path: ./layer
     description: Layer with all the required dependencies to run google lighthouse
     compatibleRuntimes:
-      - nodejs8.10 # https://github.com/adieuadieu/serverless-chrome/issues/203
+      - nodejs8.10 # https://github.com/alixaxel/chrome-aws-lambda/issues/37
     licenseInfo: MIT
     retain: true
