@@ -4,7 +4,7 @@ A Lambda layer with all the required dependencies to run Google Lighthouse.
 
 ## Prerequisites
 
-[Nodejs](https://nodejs.org/en/) (at least version 8)
+[Nodejs](https://nodejs.org/en/) (at least version 10)
 
 [Yarn](https://yarnpkg.com/lang/en/)
 
@@ -45,7 +45,7 @@ const chromeLauncher = require('chrome-launcher');
 // this lets us support invoke local
 const chromePath = process.env.IS_LOCAL
   ? undefined
-  : '/opt/nodejs/node_modules/@serverless-chrome/lambda/dist/headless-chromium';
+  : '/opt/nodejs/node_modules/chrome-aws-lambda/bin/chromium';
 
 const chromeFlags = [
   '--headless',

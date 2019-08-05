@@ -4,13 +4,16 @@
   "version": "0.0.1",
   "description": "lighthouse layer nodejs",
   "engines": {
-    "node": ">= 8"
+    "node": ">= 10"
+  },
+  "scripts": {
+    "postinstall": "node decompress-binary.js"
   },
   "author": "Erez Rokah",
   "license": "MIT",
   "homepage": "https://github.com/adieuadieu/erezrokah/lighthouse-runner/layers/lighthouse/nodejs",
   "dependencies": {
-    "@serverless-chrome/lambda": "^1.0.0-55",
+    "chrome-aws-lambda": "^1.19.0",
     "chrome-launcher": "^0.11.1",
     "lighthouse": "^v4.3.1",
     "lighthouse-logger": "^1.2.0"
