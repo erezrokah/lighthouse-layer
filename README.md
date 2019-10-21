@@ -42,10 +42,27 @@ const lighthouse = require('lighthouse');
 const log = require('lighthouse-logger');
 const chromeLauncher = require('chrome-launcher');
 
+let chromePath = undefined;
+
 // this lets us support invoke local
-const chromePath = process.env.IS_LOCAL
-  ? undefined
-  : '/opt/nodejs/node_modules/chrome-aws-lambda/bin/chromium';
+if (!process.env.IS_LOCAL) {
+  chromePath = '/opt/bin/chromium';
+
+  // https://github.com/alixaxel/chrome-aws-lambda/blob/3779715fdc197a245af662725977133b2d676bf9/source/index.js#L6
+  // required for node10 support - makes sure fonts and shared libraries are loaded correctly
+  if (process.env.FONTCONFIG_PATH === undefined) {
+    process.env.FONTCONFIG_PATH = '/opt/lib';
+  }
+
+  if (
+    process.env.LD_LIBRARY_PATH &&
+    process.env.LD_LIBRARY_PATH.startsWith('/opt/lib:') !== true
+  ) {
+    process.env.LD_LIBRARY_PATH = [
+      ...new Set(['/opt/lib', ...process.env.LD_LIBRARY_PATH.split(':')]),
+    ].join(':');
+  }
+}
 
 const chromeFlags = [
   '--headless',
