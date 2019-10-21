@@ -2,3 +2,5 @@
 node_modules
 
 .serverless
+layer/lib
+layer/bin

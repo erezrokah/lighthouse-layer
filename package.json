@@ -16,6 +16,8 @@
   "homepage": "https://github.com/adieuadieu/erezrokah/lighthouse-runner/layers/lighthouse",
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "fs-extra": "^8.1.0",
+    "prettier": "^1.18.2",
+    "tar-fs": "^2.0.0"
   }
 }
