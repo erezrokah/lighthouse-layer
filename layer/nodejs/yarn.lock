@@ -173,9 +173,9 @@ chownr@^1.1.1:
   integrity sha512-i70fVHhmV3DtTl6nqvZOnIjbY0Pe4kAUjwHj8z0zAdgBtYrJyYwLKCCuRBQ5ppkyL0AkN7HKRnETdmdp1zqNXw==
 
 chrome-aws-lambda@^1.20.3:
-  version "1.20.3"
-  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-1.20.3.tgz#db2e8d571d0ba4fb42b0f052bfbffca705faf1ef"
-  integrity sha512-yLNuBBs+U4FoZAgA6NK+cTP1kDP6bNq4cb2q3TYvCDAiBxhukUNyCpmnZ4+FGALgiE+66O5hX0bTXVcdABpsBw==
+  version "1.20.4"
+  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-1.20.4.tgz#57d899ab6cc11b3f54cc628861b098892e854302"
+  integrity sha512-+zuq/BO9TpAvlXIpyGto6YytnEe0NBpZS5HVGnaMqRhL0cagDEhrzAYqaQfK4HZnafA7HW1wkFacl7CAI990LQ==
   dependencies:
     lambdafs "^1.3.0"
 
