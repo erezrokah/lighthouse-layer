@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A Lambda layer with all the required dependencies to run Google Lighthouse",
   "engines": {
-    "node": ">= v10.18.1"
+    "node": ">= v10.19.0"
   },
   "scripts": {
     "deploy": "serverless deploy",

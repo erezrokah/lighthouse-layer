@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "lighthouse layer nodejs",
   "engines": {
-    "node": ">= v10.18.1"
+    "node": ">= v10.19.0"
   },
   "scripts": {
     "postinstall": "node decompress-binary.js"
