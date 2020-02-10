@@ -13,7 +13,7 @@
   "license": "MIT",
   "homepage": "https://github.com/adieuadieu/erezrokah/lighthouse-runner/layers/lighthouse/nodejs",
   "dependencies": {
-    "chrome-aws-lambda": "^1.20.3",
+    "chrome-aws-lambda": "^2.0.0",
     "chrome-launcher": "^0.12.0",
     "lighthouse": "^5.6.0",
     "lighthouse-logger": "^1.2.0"
