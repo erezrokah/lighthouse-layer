@@ -204,22 +204,10 @@ chrome-aws-lambda@^3.0.0:
   dependencies:
     lambdafs "^1.3.0"
 
-chrome-launcher@^0.13.0:
+chrome-launcher@^0.13.0, chrome-launcher@^0.13.3:
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.13.4.tgz#4c7d81333c98282899c4e38256da23e00ed32f73"
   integrity sha512-nnzXiDbGKjDSK6t2I+35OAPBy5Pw/39bgkb/ZAFwMhwJbdYBp6aH+vW28ZgtjdU890Q7D+3wN/tB8N66q5Gi2A==
-  dependencies:
-    "@types/node" "*"
-    escape-string-regexp "^1.0.5"
-    is-wsl "^2.2.0"
-    lighthouse-logger "^1.0.0"
-    mkdirp "^0.5.3"
-    rimraf "^3.0.2"
-
-chrome-launcher@^0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.13.3.tgz#5dd72ae4e9b3de19ce3fe1941f89551c0ceb1d30"
-  integrity sha512-ovrDuFXgXS96lzeDqFPQRsczkxla+6QMvzsF+1u0mKlD1KE8EuhjdLwiDfIFedb0FSLz18RK3y6IbKu8oqA0qw==
   dependencies:
     "@types/node" "*"
     escape-string-regexp "^1.0.5"
@@ -855,9 +843,9 @@ lighthouse-logger@^1.0.0, lighthouse-logger@^1.2.0:
     marky "^1.2.0"
 
 lighthouse@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-6.1.0.tgz#1c238049821e62eddd34c7371ab9c3222e2dfdef"
-  integrity sha512-j/tPSbxSkQRSwyIAjYUNIdarieR1cw8qDYIASsmtIcegCnMrhn5FM7hggcOTFlenDCEIOfv7JlQYV6UVfE4wZg==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-6.1.1.tgz#a029fbe80e3413d7e201412086f07bdd414a7541"
+  integrity sha512-H/ulIcKGMCmgGlK8dDngo72ehBg8WBr2eGW47MN+SAneYoUQmQO41vGo8f7UG9l2oCyabBETEJO4R7yew3XF8g==
   dependencies:
     axe-core "3.5.5"
     chrome-launcher "^0.13.3"
@@ -902,9 +890,9 @@ lodash.set@^4.3.2:
   integrity sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=
 
 lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lookup-closest-locale@6.0.4:
   version "6.0.4"
