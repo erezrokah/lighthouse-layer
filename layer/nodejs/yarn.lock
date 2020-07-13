@@ -3,9 +3,9 @@
 
 
 "@types/node@*":
-  version "14.0.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
-  integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
+  version "14.0.22"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.22.tgz#23ea4d88189cec7d58f9e6b66f786b215eb61bdc"
+  integrity sha512-emeGcJvdiZ4Z3ohbmw93E/64jRzUHAItSHt8nF7M4TGgQTiWqFVGB8KNpLGFmUHmHLvjvBgFwVlqNcq+VuGv9g==
 
 JSV@^4.0.2:
   version "4.0.2"
@@ -204,7 +204,19 @@ chrome-aws-lambda@^3.0.0:
   dependencies:
     lambdafs "^1.3.0"
 
-chrome-launcher@^0.13.0, chrome-launcher@^0.13.3:
+chrome-launcher@^0.13.0:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.13.4.tgz#4c7d81333c98282899c4e38256da23e00ed32f73"
+  integrity sha512-nnzXiDbGKjDSK6t2I+35OAPBy5Pw/39bgkb/ZAFwMhwJbdYBp6aH+vW28ZgtjdU890Q7D+3wN/tB8N66q5Gi2A==
+  dependencies:
+    "@types/node" "*"
+    escape-string-regexp "^1.0.5"
+    is-wsl "^2.2.0"
+    lighthouse-logger "^1.0.0"
+    mkdirp "^0.5.3"
+    rimraf "^3.0.2"
+
+chrome-launcher@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.13.3.tgz#5dd72ae4e9b3de19ce3fe1941f89551c0ceb1d30"
   integrity sha512-ovrDuFXgXS96lzeDqFPQRsczkxla+6QMvzsF+1u0mKlD1KE8EuhjdLwiDfIFedb0FSLz18RK3y6IbKu8oqA0qw==
