@@ -15,9 +15,9 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@*":
-  version "14.14.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
-  integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
+  version "14.14.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.13.tgz#9e425079799322113ae8477297ae6ef51b8e0cdf"
+  integrity sha512-vbxr0VZ8exFMMAjCW8rJwaya0dMCDyYW2ZRdTyjtrCvJoENMpdUHOT/eTzvgyA5ZnqRZ/sI0NwqAxNHKYokLJQ==
 
 JSV@^4.0.2:
   version "4.0.2"
@@ -693,9 +693,9 @@ inherits@2, inherits@^2.0.3, inherits@^2.0.4:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ini@^1.3.5, ini@~1.3.0:
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
-  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inquirer@^7.3.3:
   version "7.3.3"
@@ -900,11 +900,11 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 lambdafs@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/lambdafs/-/lambdafs-2.0.0.tgz#41c982486cdf5357d6ae447c47506e7b01952c40"
-  integrity sha512-aLZoFHQGOj1gShKC8xjbVcxkSVMTav6kN/+bAJ/ORTWzTA+TeUKZRjzIIFFER5wUHd2FyJd3KygdFJobH2I9cg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/lambdafs/-/lambdafs-2.0.1.tgz#ddbee479e8e204dc17f1a43307ec3ae1df9ea485"
+  integrity sha512-RNb7Si2XPvU6pPiE6S0eDfH1W3n+OQaxpclSPJD0hnNFA5z+U1Ntr4sgUEE9xSxVu932ufh1iwtBcIxpEM9bOw==
   dependencies:
-    tar-fs "^2.1.0"
+    tar-fs "^2.1.1"
 
 latest-version@^5.0.0:
   version "5.1.0"
@@ -929,9 +929,9 @@ lighthouse-logger@^1.0.0, lighthouse-logger@^1.2.0:
     marky "^1.2.0"
 
 lighthouse-stack-packs@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/lighthouse-stack-packs/-/lighthouse-stack-packs-1.3.0.tgz#fcf979b592957ad090ee5a3e94b45c0686e02e0a"
-  integrity sha512-ZrakxXF5y0xpU0/ArIVgXB1hNr3/Hb5bUDDAWIrd7Yl88BiOWtvpFwdcC9C0iDQxdxmZXDK5Jd78GDvWEi1H/g==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/lighthouse-stack-packs/-/lighthouse-stack-packs-1.4.0.tgz#bf98e0fb04a091ec2d73648842698b41070968ef"
+  integrity sha512-wdv94WUjaqUwtW8DOapng45Yah62c5O5geNVeoSQlnoagfbTO/YbiwNlfzDIF1xNKRkPlsfr/oWHhXsaHXDivg==
 
 lighthouse@^6.0.0:
   version "6.5.0"
@@ -1477,7 +1477,7 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tar-fs@^2.1.0:
+tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
