@@ -15,9 +15,9 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@*":
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.2.tgz#5764ca9aa94470adb4e1185fe2e9f19458992b2e"
-  integrity sha512-zCclL4/rx+W5SQTzFs9wyvvyCwoK9QtBpratqz2IYJ3O8Umrn0m3nsTv0wQBk9sRGpvUe9CwPDrQFB10f1FIjQ==
+  version "16.10.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.3.tgz#7a8f2838603ea314d1d22bb3171d899e15c57bd5"
+  integrity sha512-ho3Ruq+fFnBrZhUYI46n/bV2GjwzSkwuT4dTf0GkuNFmnb8nq4ny2z9JEVemFi6bdEJanHLlYfy9c6FN9B9McQ==
 
 ansi-align@^3.0.0:
   version "3.0.1"
@@ -128,9 +128,9 @@ chrome-aws-lambda@^10.0.0:
     lambdafs "^2.0.3"
 
 chrome-launcher@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.14.0.tgz#de8d8a534ccaeea0f36ea8dc12dd99e3169f3320"
-  integrity sha512-W//HpflaW6qBGrmuskup7g+XJZN6w03ko9QSIe5CtcTal2u0up5SeReK3Ll1Why4Ey8dPkv8XSodZyHPnGbVHQ==
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.14.1.tgz#e885e706f26cc7a07d348e730fe12f15e43b0881"
+  integrity sha512-iQ4s61NkIyaozsE2VKg1Vu3YGdD3JGw+fBBrt3FYJi7uflO9TvlTLW4MUq0fq3EKGhzB/QHPd5AsLb14+9++JQ==
   dependencies:
     "@types/node" "*"
     escape-string-regexp "^4.0.0"
