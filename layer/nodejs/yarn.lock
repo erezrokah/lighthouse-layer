@@ -15,9 +15,9 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@*":
-  version "16.11.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.4.tgz#90771124822d6663814f7c1c9b45a6654d8fd964"
-  integrity sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==
+  version "16.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
 ansi-align@^3.0.0:
   version "3.0.1"
@@ -526,9 +526,9 @@ lighthouse-stack-packs@^1.5.0:
   integrity sha512-ntVOqFsrrTQYrNf+W+sNE9GjddW+ab5QN0WrrCikjMFsUvEQ28CvT0SXcHPZXFtcsb1lMSuVaNCmEuj7oXtYGQ==
 
 lighthouse@^8.0.0:
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-8.5.1.tgz#0cf4f2d3ebf67e40cd14fcbb027c9d5fb3cfa912"
-  integrity sha512-phe3g77N5AE5pf5TARUBb9uHLvvzwpd2z/S0G+6KrC5ShEe2laSxkiiTLo/jYxsrmy5kL7qohVztdOuafy4HGQ==
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-8.6.0.tgz#e50ca532aca2ca7fec409caea6bddd940450041a"
+  integrity sha512-/H7aDL3//Gr0M1v8GGq6k0OTNty7nDVuU/o1cg6opYkfHRz1V3Nhydqz6aBzfXhUQx6iJRnxgRCPya+ZLA2vbg==
   dependencies:
     axe-core "4.2.3"
     chrome-launcher "^0.14.0"
@@ -870,9 +870,9 @@ term-size@^2.1.0:
   integrity sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==
 
 third-party-web@^0.12.4:
-  version "0.12.5"
-  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.12.5.tgz#df336053ddcbce68aa2da3787641233739ad5a64"
-  integrity sha512-A8YS1bpOzm9os0w7wH/BbN5WZgzyf0zbrrWHckX57v+EkCaM7jZPoRpzgqrakh2e7IWP1KwAnMtlcGTATYZw8A==
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.12.6.tgz#2745d5dfccd526ee180be833c45578deba7e9e40"
+  integrity sha512-g01h+wXG7UsPOPOEGRnz8bvRr7XWYckI0afFaX6JPkAeuHbS1RUKmiZ5Y56em3CNAMu8iz1rxJEpkfjbAuVkMQ==
 
 timed-out@4.0.1:
   version "4.0.1"
