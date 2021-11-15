@@ -14,7 +14,7 @@
   "homepage": "https://github.com/adieuadieu/erezrokah/lighthouse-runner/layers/lighthouse/nodejs",
   "dependencies": {
     "chrome-aws-lambda": "^10.0.0",
-    "chrome-launcher": "^0.14.0",
+    "chrome-launcher": "^0.15.0",
     "lighthouse": "^8.0.0",
     "lighthouse-logger": "^1.2.0"
   }
