@@ -59,9 +59,9 @@
     tslib "^1.9.3"
 
 "@types/node@*":
-  version "17.0.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.24.tgz#20ba1bf69c1b4ab405c7a01e950c4f446b05029f"
-  integrity sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==
+  version "17.0.26"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.26.tgz#1bbff9b23ee5a64f87b4f30c0c854b112ee2e635"
+  integrity sha512-z/FG/6DUO7pnze3AE3TBGIjGGKkvCcGcWINe1C7cADY8hKLJPDYpzsNE37uExQ4md5RFtTCvg+M8Mu1Enyeg2A==
 
 agent-base@6:
   version "6.0.2"
@@ -364,9 +364,9 @@ lighthouse-logger@^1.0.0, lighthouse-logger@^1.2.0, lighthouse-logger@^1.3.0:
     marky "^1.2.2"
 
 lighthouse-stack-packs@^1.7.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/lighthouse-stack-packs/-/lighthouse-stack-packs-1.8.0.tgz#9752b33108477b48cd3036aac0591095314940e8"
-  integrity sha512-vN1Muftw16vgoh8wQCtA+CpWQRjNaX2GuYGjh2kX3nf7J9KJyrETxITjMxmtmPNuiA0g04UmFa3g/2Gl6UxWYA==
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/lighthouse-stack-packs/-/lighthouse-stack-packs-1.8.1.tgz#d0772a79f5e7f933109077fb80ccdbd68a43a283"
+  integrity sha512-LSCu9Ugt9NPvRfBNzAjMDLvYev9r/93OTmbIWt9iXwiCmd999I/zneRTwsFLtlQWGKwNbDHS9vXnU+KpXUb1qg==
 
 lighthouse@^9.0.0:
   version "9.5.0"
