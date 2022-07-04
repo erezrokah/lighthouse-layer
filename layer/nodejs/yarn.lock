@@ -59,9 +59,9 @@
     tslib "^1.9.3"
 
 "@types/node@*":
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
-  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.1.tgz#e91bd73239b338557a84d1f67f7b9e0f25643870"
+  integrity sha512-CmR8+Tsy95hhwtZBKJBs0/FFq4XX7sDZHlGGf+0q+BRZfMbOTkzkj0AFAuTyXbObDIoanaBBW0+KEW+m3N16Wg==
 
 "@types/yauzl@^2.9.1":
   version "2.10.0"
@@ -469,9 +469,9 @@ lighthouse-stack-packs@^1.8.1:
   integrity sha512-LSCu9Ugt9NPvRfBNzAjMDLvYev9r/93OTmbIWt9iXwiCmd999I/zneRTwsFLtlQWGKwNbDHS9vXnU+KpXUb1qg==
 
 lighthouse@^9.0.0:
-  version "9.6.2"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-9.6.2.tgz#e67db7246d2001a076ad43f2ace767766c3bfdf2"
-  integrity sha512-JNLDbN2v5FcKE3izld7pprWcTIRqaRz4sDTkMVtF3aRKwBc5xP+wjfwRQ0tAi1Mf7ATIF2eF20SqNwqyNLB4Jg==
+  version "9.6.3"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-9.6.3.tgz#32273801935c6d28ed847fe15264bfd7d4add07c"
+  integrity sha512-ysMuOHN5BFxN7xkj7u6nmyiC9tpF/C0JFqDSSo5i5XX9mGgVMHQ7tnK/+GK0SI577GsKNegCGQeoSJgXSPQcJA==
   dependencies:
     "@sentry/node" "^6.17.4"
     axe-core "4.4.1"
