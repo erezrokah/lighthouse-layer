@@ -59,9 +59,9 @@
     tslib "^1.9.3"
 
 "@types/node@*":
-  version "18.7.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.3.tgz#432c89796eab539b7a30b7b8801a727b585238a4"
-  integrity sha512-LJgzOEwWuMTBxHzgBR/fhhBOWrvBjvO+zPteUgbbuQi80rYIZHrk1mNbRUqPZqSLP2H7Rwt1EFLL/tNLD1Xx/w==
+  version "18.7.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.9.tgz#180bfc495c91dc62573967edf047e15dbdce1491"
+  integrity sha512-0N5Y1XAdcl865nDdjbO0m3T6FdmQ4ijE89/urOHLREyTXbpMWbSafx9y7XIsgWGtwUP2iYTinLyyW3FatAxBLQ==
 
 "@types/yauzl@^2.9.1":
   version "2.10.0"
@@ -216,10 +216,10 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-csp_evaluator@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/csp_evaluator/-/csp_evaluator-1.1.0.tgz#7fb3378a08163de4caf0a5297e92a5f70ef42d21"
-  integrity sha512-TcB+ZH9wZBG314jAUpKHPl1oYbRJV+nAT2YwZ9y4fmUN0FkEJa8e/hKZoOgzLYp1Z/CJdFhbhhGIGh0XG8W54Q==
+csp_evaluator@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/csp_evaluator/-/csp_evaluator-1.1.1.tgz#12b7bb0c6ae9053d30c86e8ddc52a1e920e6c0f7"
+  integrity sha512-N3ASg0C4kNPUaNxt1XAvzHIVuzdtr8KLgfk1O8WDyimp1GisPAHESupArO2ieHk9QWbrJ/WkQODyh21Ps/xhxw==
 
 cssom@0.3.x:
   version "0.3.8"
@@ -469,15 +469,15 @@ lighthouse-stack-packs@1.8.2:
   integrity sha512-vlCUxxQAB8Nu6LQHqPpDRiMi06Du593/my/6JbMttQeEfJ7pf4OS8obSTh5xSOS80U/O7fq59Q8rQGAUxQatUQ==
 
 lighthouse@^9.0.0:
-  version "9.6.5"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-9.6.5.tgz#b6a2eb07c59ee94dc86010760402b9eea8b3d289"
-  integrity sha512-Biv5Lvcs0Tb8f4mnKch0t6Jzsa50RfAz5ysauPUjzSUnT9yb14j942KypbXv39i1BQWfr7ZX9IBeD+W5lIRkZw==
+  version "9.6.6"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-9.6.6.tgz#407525e0ecc1ce12ebe6fe814de315e5e1952aef"
+  integrity sha512-oeuuUNm7FCbWvzzkSwsfNSEbzMd/02z5Tn9MjwdjDz8X3lj3p8r8J2hel0oRAxjtg73sommj/oPrYInRNPKszg==
   dependencies:
     "@sentry/node" "^6.17.4"
     axe-core "4.4.1"
     chrome-launcher "^0.15.0"
     configstore "^5.0.1"
-    csp_evaluator "1.1.0"
+    csp_evaluator "1.1.1"
     cssstyle "1.2.1"
     enquirer "^2.3.6"
     http-link-header "^0.8.0"
