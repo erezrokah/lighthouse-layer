@@ -18,6 +18,6 @@
   "devDependencies": {
     "fs-extra": "^11.0.0",
     "prettier": "^2.0.0",
-    "tar-fs": "^2.0.0"
+    "tar-fs": "^3.0.0"
   }
 }
