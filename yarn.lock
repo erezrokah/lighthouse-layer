@@ -14,7 +14,7 @@ end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-fast-fifo@^1.1.0:
+fast-fifo@^1.1.0, fast-fifo@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/fast-fifo/-/fast-fifo-1.2.0.tgz#2ee038da2468e8623066dee96958b0c1763aa55a"
   integrity sha512-NcvQXt7Cky1cNau15FWy64IjuO8X0JijhTBBrJj1YlxlDfRkJXNaK9RFUjwpfDPzMdv7wB38jr53l9tkNLxnWg==
@@ -81,20 +81,21 @@ streamx@^2.15.0:
     queue-tick "^1.0.1"
 
 tar-fs@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.0.2.tgz#41bed7bafd700f61e8c13a7efbf84f7a1fc81969"
-  integrity sha512-mLQ5iTTCv2tt3a4BwvD8QX1YFVBL/94/Nd+U2il38wt2+zaJSusp1VwJSNkBmB48FeTdOqptf1DAUIosXQBRrQ==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.0.3.tgz#6593e7df92f337e74d755be183a192213d923050"
+  integrity sha512-ZK36riGYnFI6LujIBfBRoDfeaaWUkStIFKwtPjnDWCKnsDE9kuQthG09aQjLjpzoRtVElEMZ/AIAURNb7N9mkA==
   dependencies:
     mkdirp-classic "^0.5.2"
     pump "^3.0.0"
     tar-stream "^3.1.0"
 
 tar-stream@^3.1.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-3.1.1.tgz#e21eabdddde8b2ba7007026aeac956b239acdf84"
-  integrity sha512-Y5wIzRqqz0k7UHHfW34YM//w2krbMFDPxOJEg5hnVuilaY6Onqdrw66dLNJFxLoiFSCPXUEeQOHVMQ9Rx8fkKw==
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-3.1.4.tgz#a06c3cefe558f8a5a6e88ddfbf6471782ad8dd42"
+  integrity sha512-IlHr7ZOW6XaVBCrSCokUJG4IqUuRcWW76B8XbrtCotbaDh6zVGE7WPCzaSz1CN+acFmWiwoa+cE4RZsom0RzXg==
   dependencies:
     b4a "^1.6.4"
+    fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
 universalify@^2.0.0:
