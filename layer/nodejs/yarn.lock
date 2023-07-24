@@ -444,7 +444,7 @@ lambdafs@^2.0.3:
   dependencies:
     tar-fs "*"
 
-lighthouse-logger@^1.0.0, lighthouse-logger@^1.2.0, lighthouse-logger@^1.4.1:
+lighthouse-logger@^1.0.0, lighthouse-logger@^1.4.1:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-1.4.2.tgz#aef90f9e97cd81db367c7634292ee22079280aaa"
   integrity sha512-gPWxznF6TKmUHrOQjlVo2UbaL2EJ71mb2CCeRs/2qBpi4L/g4LUVc9+3lKQ6DTUZwJswfM7ainGrLO1+fOqa2g==
@@ -452,7 +452,7 @@ lighthouse-logger@^1.0.0, lighthouse-logger@^1.2.0, lighthouse-logger@^1.4.1:
     debug "^2.6.9"
     marky "^1.2.2"
 
-lighthouse-logger@^2.0.1:
+lighthouse-logger@^2.0.0, lighthouse-logger@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-2.0.1.tgz#48895f639b61cca89346bb6f47f7403a3895fa02"
   integrity sha512-ioBrW3s2i97noEmnXxmUq7cjIcVRjT5HBpAYy8zE11CxU9HqlWHHeRxfeN1tn8F7OEMVPIC9x1f8t3Z7US9ehQ==
