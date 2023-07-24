@@ -16,6 +16,6 @@
     "chrome-aws-lambda": "^10.0.0",
     "chrome-launcher": "^1.0.0",
     "lighthouse": "^10.0.0",
-    "lighthouse-logger": "^1.2.0"
+    "lighthouse-logger": "^2.0.0"
   }
 }
