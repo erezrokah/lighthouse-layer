@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@puppeteer/browsers@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-1.5.0.tgz#2c445f7e41133d4aa23f776748d70211ea4e98ed"
-  integrity sha512-za318PweGINh5LnHSph7C4xhs0tmRjCD8EPpzcKlw4nzSPhnULj+LTG3+TGefZvW1ti5gjw2JkdQvQsivBeZlg==
+"@puppeteer/browsers@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-1.6.0.tgz#d52413a7039e40a5ef72fb13fb6505fd87ce842e"
+  integrity sha512-R2ib8j329427jtKB/qlz0MJbwfJE/6I8ocJLiajsRqJ2PPI8DbjiNzC3lQZeISXEcjOBVhbG2RafN8SlHdcT+A==
   dependencies:
     debug "4.3.4"
     extract-zip "2.0.1"
@@ -77,9 +77,9 @@
   integrity sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==
 
 "@types/node@*":
-  version "20.4.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.8.tgz#b5dda19adaa473a9bf0ab5cbd8f30ec7d43f5c85"
-  integrity sha512-0mHckf6D2DiIAzh8fM8f3HQCvMKDpK94YQ0DSVkfWTG9BZleYIWudw9cJxX8oCk9bM+vAkDyujDV6dmKHbvQpg==
+  version "20.5.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.0.tgz#7fc8636d5f1aaa3b21e6245e97d56b7f56702313"
+  integrity sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q==
 
 "@types/yauzl@^2.9.1":
   version "2.10.0"
@@ -722,11 +722,11 @@ pump@^3.0.0:
     once "^1.3.1"
 
 puppeteer-core@^21.0.1:
-  version "21.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-21.0.1.tgz#bc20f3b2c1ee29936cb3413e560c7ca3cfdb0027"
-  integrity sha512-E8eWLGhaZZpa7dYe/58qGX7SLb4mTg42NP5M7B+ibPrncgNjTOQa9x1sFIlTn1chF/BmoZqOcMIvwuxcb/9XzQ==
+  version "21.0.3"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-21.0.3.tgz#201bfbf18a9467dbedb10c3c2c9c43462bb9bb84"
+  integrity sha512-AGvopfkA0jLbW5Ba0m6kBuvRIpLo76PXUK3zJYkXOr9NI1LknJESyai6TtXc6GUSewMkinmyEDx1pFgq900hqg==
   dependencies:
-    "@puppeteer/browsers" "1.5.0"
+    "@puppeteer/browsers" "1.6.0"
     chromium-bidi "0.4.20"
     cross-fetch "4.0.0"
     debug "4.3.4"
@@ -800,9 +800,9 @@ speedline-core@^1.4.3:
     jpeg-js "^0.4.1"
 
 streamx@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.0.tgz#f58c92e6f726b5390dcabd6dd9094d29a854d698"
-  integrity sha512-HcxY6ncGjjklGs1xsP1aR71INYcsXFJet5CU1CHqihQ2J5nOsbd4OjgjHO42w/4QNv9gZb3BueV+Vxok5pLEXg==
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.1.tgz#396ad286d8bc3eeef8f5cea3f029e81237c024c6"
+  integrity sha512-fQMzy2O/Q47rgwErk/eGeLu/roaFWV0jVsogDmrszM9uIw8L5OA+t+V93MgYlufNptfjmYR1tOMWhei/Eh7TQA==
   dependencies:
     fast-fifo "^1.1.0"
     queue-tick "^1.0.1"
@@ -842,9 +842,9 @@ tar-stream@^3.1.5:
     streamx "^2.15.0"
 
 third-party-web@^0.23.3:
-  version "0.23.3"
-  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.23.3.tgz#e437e952e387249446b041667c35972297dc608d"
-  integrity sha512-ifZcy79XYPmt9kQSTaHVh3IaL3Pms60iumsBrBBm6PPrtlNGdj56wznKl1LgSw8KpMWOwqOrlI/WCasQjflIZA==
+  version "0.23.4"
+  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.23.4.tgz#2e301c9b6bae775368489a60b7c3cf8bd4e1e3cc"
+  integrity sha512-kwYnSZRhEvv0SBW2fp8SBBKRglMoBjV8xz6C31m0ewqOtknB5UL+Ihg+M81hyFY5ldkZuGWPb+e4GVDkzf/gYg==
 
 through@^2.3.8:
   version "2.3.8"
