@@ -73,9 +73,9 @@ queue-tick@^1.0.1:
   integrity sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==
 
 streamx@^2.15.0:
-  version "2.15.4"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.4.tgz#497b8102d076ae12b43c456e0bb16940d1ba0999"
-  integrity sha512-uSXKl88bibiUCQ1eMpItRljCzDENcDx18rsfDmV79r0e/ThfrAwxG4Y2FarQZ2G4/21xcOKmFFd1Hue+ZIDwHw==
+  version "2.15.5"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.5.tgz#87bcef4dc7f0b883f9359671203344a4e004c7f1"
+  integrity sha512-9thPGMkKC2GctCzyCUjME3yR03x2xNo0GPKGkRw2UMYN+gqWa9uqpyNWhmsNCutU5zHmkUum0LsCRQTXUgUCAg==
   dependencies:
     fast-fifo "^1.1.0"
     queue-tick "^1.0.1"
