@@ -13,9 +13,9 @@ bare-events@^2.0.0, bare-events@^2.2.0:
   integrity sha512-9GYPpsPFvrWBkelIhOhTWtkeZxVxZOdb3VnFTCzlOo3OjvmTvzLoZFUT8kNFACx0vJej6QPney1Cf9BvzCNE/A==
 
 bare-fs@^2.1.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-2.2.1.tgz#c1985d8d3e07a178956b072d3af67cb8c1fa9391"
-  integrity sha512-+CjmZANQDFZWy4PGbVdmALIwmt33aJg8qTkVjClU6X4WmZkTPBDxRHiBn7fpqEWEfF3AC2io++erpViAIQbSjg==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-2.2.2.tgz#286bf54cc6f15f613bee6bb26f0c61c79fb14f06"
+  integrity sha512-X9IqgvyB0/VA5OZJyb5ZstoN62AzD7YxVGog13kkfYWYqJYcK0kcqLZ6TrmH5qr4/8//ejVcX4x/a0UvaogXmA==
   dependencies:
     bare-events "^2.0.0"
     bare-os "^2.0.0"
@@ -23,9 +23,9 @@ bare-fs@^2.1.1:
     streamx "^2.13.0"
 
 bare-os@^2.0.0, bare-os@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-2.2.0.tgz#24364692984d0bd507621754781b31d7872736b2"
-  integrity sha512-hD0rOPfYWOMpVirTACt4/nK8mC55La12K5fY1ij8HAdfQakD62M+H4o4tpfKzVGLgRDTuk3vjA4GqGXXCeFbag==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-2.2.1.tgz#c94a258c7a408ca6766399e44675136c0964913d"
+  integrity sha512-OwPyHgBBMkhC29Hl3O4/YfxW9n7mdTr2+SsO29XBWKKJsbgj3mnorDB80r5TiCQgQstgE5ga1qNYrpes6NvX2w==
 
 bare-path@^2.0.0, bare-path@^2.1.0:
   version "2.1.0"
