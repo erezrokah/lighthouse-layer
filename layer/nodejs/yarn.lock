@@ -122,9 +122,9 @@
   integrity sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==
 
 "@types/node@*":
-  version "20.14.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
-  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
+  version "20.14.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.10.tgz#a1a218290f1b6428682e3af044785e5874db469a"
+  integrity sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -960,17 +960,17 @@ through@^2.3.8:
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
 
-tldts-core@^6.1.30:
-  version "6.1.30"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.30.tgz#96ea6ae4064bee4611795bf28bdcfba347a95baa"
-  integrity sha512-CPlL58/oIvnovk5KTHIho/B0bMuvPkZrcC7f4pfQH+BBPY/mMz6CekiIdhjFxk9XZZJNirbwh1rRTSo4e5KXQA==
+tldts-core@^6.1.31:
+  version "6.1.31"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.31.tgz#61174c594fca558455bfca12d243195bcc86455e"
+  integrity sha512-IdTd0OpW2qgG1mbFxoXp14ohLNO6KP+H3htsNb3pk2FF8m21vvIaDlTWmKBR+UnZmXkSFOfZYYeswPAjSoHs+g==
 
 tldts-icann@^6.1.16:
-  version "6.1.30"
-  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-6.1.30.tgz#c745fbbeb4b96acefd3ccc20983d1d983b32e30d"
-  integrity sha512-1ekjlDThO9urnJvPJ533AS/ZY9O2E7AVNmy7yX4QDQzATuvDv8qeUuuPsc+nWoinXila5LoQVEmqOR310q34BQ==
+  version "6.1.31"
+  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-6.1.31.tgz#64c3163bd836d5321d321f0b8e79666aa43ae7a3"
+  integrity sha512-C4skEg7UQ039td+I2vkNIPqv9h7T4EOocOAaco1Y5elNSJQhdcHlGm9QhqYVtFmPRN5apUrpu3lc2QiAtVV66A==
   dependencies:
-    tldts-core "^6.1.30"
+    tldts-core "^6.1.31"
 
 tslib@^1.9.3:
   version "1.14.1"
@@ -1049,9 +1049,9 @@ ws@^7.0.0:
   integrity sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==
 
 ws@^8.17.1:
-  version "8.17.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
-  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
+  integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
