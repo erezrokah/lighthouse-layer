@@ -186,9 +186,9 @@ bare-fs@^4.0.1:
     bare-stream "^2.0.0"
 
 bare-os@^3.0.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.5.1.tgz#8e59ad8db6d0eab35cfe499208db643fd5f4c594"
-  integrity sha512-LvfVNDcWLw2AnIw5f2mWUgumW3I3N/WYGiWeimhQC1Ybt71n2FjlS9GJKeCnFeg1MKZHxzIFmpFnBXDI+sBeFg==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.6.0.tgz#1465dd7e1bebe0dec230097a23ad00f7db51f957"
+  integrity sha512-BUrFS5TqSBdA0LwHop4OjPJwisqxGy6JsWVqV6qaFoe965qqtaKfDzHY5T2YA1gUL0ZeeQeA+4BBc1FJTcHiPw==
 
 bare-path@^3.0.0:
   version "3.0.0"
@@ -879,17 +879,17 @@ third-party-web@^0.26.5, third-party-web@latest:
   resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.26.5.tgz#c442b2a16db66a6064e05e0f060c9ed780f31709"
   integrity sha512-tDuKQJUTfjvi9Fcrs1s6YAQAB9mzhTSbBZMfNgtWNmJlHuoFeXO6dzBFdGeCWRvYL50jQGK0jPsBZYxqZQJ2SA==
 
-tldts-core@^6.1.83:
-  version "6.1.83"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.83.tgz#8f31172cb5763cc1128d4e18ee5095aa2f990eb8"
-  integrity sha512-I2wb9OJc6rXyh9d4aInhSNWChNI+ra6qDnFEGEwe9OoA68lE4Temw29bOkf1Uvwt8VZS079t1BFZdXVBmmB4dw==
+tldts-core@^6.1.84:
+  version "6.1.84"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.84.tgz#f8ac2af9969bf9c2f7a99fa05d9c667b5e5b768c"
+  integrity sha512-NaQa1W76W2aCGjXybvnMYzGSM4x8fvG2AN/pla7qxcg0ZHbooOPhA8kctmOZUDfZyhDL27OGNbwAeig8P4p1vg==
 
 tldts-icann@^6.1.16:
-  version "6.1.83"
-  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-6.1.83.tgz#e4cefcbac598e19282769cc0e01ca9630b08343c"
-  integrity sha512-Wt+KdQrnEvLNvdo2u5/v+l0koVLceP7zu/Ugvtvgh5cO6lYMPhqMaq/GI782Ou4O8OkO72d7ix4dTh+7ocqIyA==
+  version "6.1.84"
+  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-6.1.84.tgz#a4bd9132fb9d5cd772de5d03caa9022d0e830967"
+  integrity sha512-2e5XqGZRjlNEssjCfftUZSCvoY68KX+eLKRz7oyxUdT0E7YMKyjAZGWL34WqAKcM3y5lLBI3VDclAU+JYw9SlQ==
   dependencies:
-    tldts-core "^6.1.83"
+    tldts-core "^6.1.84"
 
 tslib@2, tslib@^2.0.1:
   version "2.8.1"
