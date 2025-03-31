@@ -43,10 +43,10 @@
   dependencies:
     tslib "^2.8.0"
 
-"@paulirish/trace_engine@0.0.44":
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/@paulirish/trace_engine/-/trace_engine-0.0.44.tgz#27f2188856c4800e02a68e6f51b6ade9c460cfb8"
-  integrity sha512-QjDv5qVaUXd5WZzE2ktKvqtGA17v4HFtj6MROCGkK57AZr9n0ZKgcx7dEFho+5EHZ6V6h1upW2eqheo8C4Y4dA==
+"@paulirish/trace_engine@0.0.50":
+  version "0.0.50"
+  resolved "https://registry.yarnpkg.com/@paulirish/trace_engine/-/trace_engine-0.0.50.tgz#888fee52e3c4be18ec7c350ddfa40b1df5cbb2c0"
+  integrity sha512-ktkbISnr0T9dkOxtnEadjYsbArMcvX2Wp8zwgyIP6KW0eOk2Oe2s49BY4v0qdE3uQdVv/GDdQ6MnoIFuYNJ9pg==
   dependencies:
     third-party-web latest
 
@@ -119,9 +119,9 @@
   integrity sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==
 
 "@types/node@*":
-  version "22.13.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.11.tgz#f0ed6b302dcf0f4229d44ea707e77484ad46d234"
-  integrity sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==
+  version "22.13.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.14.tgz#70d84ec91013dcd2ba2de35532a5a14c2b4cc912"
+  integrity sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==
   dependencies:
     undici-types "~6.20.0"
 
@@ -161,7 +161,7 @@ ast-types@^0.13.4:
   dependencies:
     tslib "^2.0.1"
 
-axe-core@^4.10.2:
+axe-core@^4.10.3:
   version "4.10.3"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.3.tgz#04145965ac7894faddbac30861e5d8f11bfd14fc"
   integrity sha512-Xm7bpRXnDSX2YE2YFfBk2FnF0ep6tmG7xPh8iHee8MIcrgq762Nkce856dYtJYLkuIoYZvGfTs/PbZhideTcEg==
@@ -171,24 +171,24 @@ b4a@^1.6.4:
   resolved "https://registry.yarnpkg.com/b4a/-/b4a-1.6.7.tgz#a99587d4ebbfbd5a6e3b21bdb5d5fa385767abe4"
   integrity sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==
 
-bare-events@^2.0.0, bare-events@^2.2.0:
+bare-events@^2.2.0, bare-events@^2.5.4:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/bare-events/-/bare-events-2.5.4.tgz#16143d435e1ed9eafd1ab85f12b89b3357a41745"
   integrity sha512-+gFfDkR8pj4/TrWCGUGWmJIkBwuxPS5F+a5yWjOHQt2hHvNZd5YLzadjmDUtFmMM4y429bnKLa8bYBMHcYdnQA==
 
 bare-fs@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.0.1.tgz#85844f34da819c76754d545323a8b23ed3617c76"
-  integrity sha512-ilQs4fm/l9eMfWY2dY0WCIUplSUp7U0CT1vrqMg1MUdeZl4fypu5UP0XcDBK5WBQPJAKP1b7XEodISmekH/CEg==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.0.2.tgz#a879c7b5d9242663ef80d75d6b99c2c6701664d6"
+  integrity sha512-S5mmkMesiduMqnz51Bfh0Et9EX0aTCJxhsI4bvzFFLs8Z1AV8RDHadfY5CyLwdoLHgXbNBEN1gQcbEtGwuvixw==
   dependencies:
-    bare-events "^2.0.0"
+    bare-events "^2.5.4"
     bare-path "^3.0.0"
-    bare-stream "^2.0.0"
+    bare-stream "^2.6.4"
 
 bare-os@^3.0.1:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.6.0.tgz#1465dd7e1bebe0dec230097a23ad00f7db51f957"
-  integrity sha512-BUrFS5TqSBdA0LwHop4OjPJwisqxGy6JsWVqV6qaFoe965qqtaKfDzHY5T2YA1gUL0ZeeQeA+4BBc1FJTcHiPw==
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.6.1.tgz#9921f6f59edbe81afa9f56910658422c0f4858d4"
+  integrity sha512-uaIjxokhFidJP+bmmvKSgiMzj2sV5GPHaZVAIktcxcpCyBFFWO+YlikVAdhmUo2vYFvFhOXIAlldqV29L8126g==
 
 bare-path@^3.0.0:
   version "3.0.0"
@@ -197,7 +197,7 @@ bare-path@^3.0.0:
   dependencies:
     bare-os "^3.0.1"
 
-bare-stream@^2.0.0:
+bare-stream@^2.6.4:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/bare-stream/-/bare-stream-2.6.5.tgz#bba8e879674c4c27f7e27805df005c15d7a2ca07"
   integrity sha512-jSmxKJNJmHySi6hC42zlZnq00rga4jjxcgNZjY9N5WlOe/iOoGRtdwGsHzQv2RlH2KOYMwGUXhf2zXd32BA9RA==
@@ -325,10 +325,10 @@ devtools-protocol@0.0.1413902:
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1413902.tgz#a0f00fe9eb25ab337a8f9656a29e0a1a69f42401"
   integrity sha512-yRtvFD8Oyk7C9Os3GmnFZLu53yAfsnyw1s+mLmHHUK0GQEc9zthHWvS1r67Zqzm5t7v56PILHIVZ7kmFMaL2yQ==
 
-devtools-protocol@0.0.1423531:
-  version "0.0.1423531"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1423531.tgz#43ba906340fb8ffbda566711ead31f139b2a150a"
-  integrity sha512-z6cOcajZWxk80zvFnkTGa7tj3oqF+C5SnOF1KSMeAr5/WW/nLNHlEpKr7voSzMz8IaUoq5rjdI0Mqv5k/BUkhg==
+devtools-protocol@0.0.1436416:
+  version "0.0.1436416"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1436416.tgz#ce8af8a210b8bcac83c5c8f095b9f977a9570df0"
+  integrity sha512-iGLhz2WOrlBLcTcoVsFy5dPPUqILG6cc8MITYd5lV6i38gWG14bMXRH/d8G5KITrWHBnbsOnWHfc9Qs4/jej9Q==
 
 dot-prop@^5.2.0:
   version "5.3.0"
@@ -566,17 +566,17 @@ lighthouse-stack-packs@1.12.2:
   integrity sha512-Ug8feS/A+92TMTCK6yHYLwaFMuelK/hAKRMdldYkMNwv+d9PtWxjXEg6rwKtsUXTADajhdrhXyuNCJ5/sfmPFw==
 
 lighthouse@^12.0.0:
-  version "12.4.0"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-12.4.0.tgz#0ca978e6b3ef2c815c132866eb83fbb21845980a"
-  integrity sha512-1p/YKQpMqfYVSKVOB43RG3xbnxkSUOG0zqVm/bxJHAaAHKrEACgFi8HZxD9CCTFrt+d/Q/x9gjDyeUDarm1SIg==
+  version "12.5.1"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-12.5.1.tgz#92895d83355ef7e34cdeb9eac471b74e43b4d734"
+  integrity sha512-ooOIqtBxOEnuX3yKtc8WiMPI/fPqHtXHaXU4ey87icRcY5I2B9+imk8i6U7duIO+yrU0WwbIwhmCs8s/FFNRgA==
   dependencies:
-    "@paulirish/trace_engine" "0.0.44"
+    "@paulirish/trace_engine" "0.0.50"
     "@sentry/node" "^7.0.0"
-    axe-core "^4.10.2"
+    axe-core "^4.10.3"
     chrome-launcher "^1.1.2"
     configstore "^5.0.1"
     csp_evaluator "1.1.5"
-    devtools-protocol "0.0.1423531"
+    devtools-protocol "0.0.1436416"
     enquirer "^2.3.6"
     http-link-header "^1.1.1"
     intl-messageformat "^10.5.3"
@@ -589,7 +589,7 @@ lighthouse@^12.0.0:
     metaviewport-parser "0.3.0"
     open "^8.4.0"
     parse-cache-control "1.0.1"
-    puppeteer-core "^24.3.0"
+    puppeteer-core "^24.4.0"
     robots-parser "^3.0.1"
     semver "^5.3.0"
     speedline-core "^1.4.3"
@@ -738,7 +738,7 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-puppeteer-core@^24.3.0:
+puppeteer-core@^24.4.0:
   version "24.4.0"
   resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-24.4.0.tgz#a301c58344fe939b487704593681ea9f913fe6f8"
   integrity sha512-eFw66gCnWo0X8Hyf9KxxJtms7a61NJVMiSaWfItsFPzFBsjsWdmcNlBdsA1WVwln6neoHhsG+uTVesKmTREn/g==
