@@ -337,24 +337,24 @@
     tar-fs "^3.1.0"
     yargs "^17.7.2"
 
-"@sentry/core@9.42.0":
-  version "9.42.0"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-9.42.0.tgz#b033dab6c6ab378c31a54b2a84ddb2e29dd21d99"
-  integrity sha512-AsfB2eklY09GGsCLC2r0pvh/h3tgr9Co3CB7XisEfzhoQH9RaEb0XeIVLyfo+503ktdlPTjH24j4Zpts4y0Jmg==
+"@sentry/core@9.44.0":
+  version "9.44.0"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-9.44.0.tgz#99be002aada90d70afb4f0293b1a8e186294cdca"
+  integrity sha512-U+KBNGgq/eXIj226CPtRk+n5dx0q1xGVvbLbyfAyeek9C/wxQ3f+mvqeVqF9cx8FfrWIOeDM1F8ISH5uRkjjQg==
 
-"@sentry/node-core@9.42.0":
-  version "9.42.0"
-  resolved "https://registry.yarnpkg.com/@sentry/node-core/-/node-core-9.42.0.tgz#77411cb7cd987608333fec7cac551e096b6797c7"
-  integrity sha512-j0zLLatut3tY+KdHqAn1t2lih+RnR2sDUJagq+swZZFgja0nsWybm3kzPN4n2aRB7yLvjU40n8oj8vi2qBK41g==
+"@sentry/node-core@9.44.0":
+  version "9.44.0"
+  resolved "https://registry.yarnpkg.com/@sentry/node-core/-/node-core-9.44.0.tgz#d918f2275a33b4c3896cbbe9dd7bbbbc7422853f"
+  integrity sha512-M6HOcA73WWzRuhqw4Fd2dqv9zEsvMteSNYOguTexIQCT2pzk1srACrt4uFfLY01s9FIKjw+tjrQfTbni2adv7Q==
   dependencies:
-    "@sentry/core" "9.42.0"
-    "@sentry/opentelemetry" "9.42.0"
+    "@sentry/core" "9.44.0"
+    "@sentry/opentelemetry" "9.44.0"
     import-in-the-middle "^1.14.2"
 
 "@sentry/node@^9.28.1":
-  version "9.42.0"
-  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-9.42.0.tgz#5492f3ab358640567fea66f0c3af170fd334b69a"
-  integrity sha512-SrfSTy570zk1ucRy5qSZ94eXj7E26ZAJ1jS7mJtUFLu2fwJt39qtbqfDncXneBJcKzLvXE6WSLVlH/WfwQ5lKg==
+  version "9.44.0"
+  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-9.44.0.tgz#b9952dd3a16b4e360358042f525dc9840cc7a280"
+  integrity sha512-rU96Q7q7hL4s328z9zFS+ZRK6eHnLFjYbH8XHCxAxGFDLyg9kpkR5to9PjoI+QVPZ/LYAE+Xw0wStoMjWMCFsA==
   dependencies:
     "@opentelemetry/api" "^1.9.0"
     "@opentelemetry/context-async-hooks" "^1.30.1"
@@ -386,18 +386,18 @@
     "@opentelemetry/sdk-trace-base" "^1.30.1"
     "@opentelemetry/semantic-conventions" "^1.34.0"
     "@prisma/instrumentation" "6.11.1"
-    "@sentry/core" "9.42.0"
-    "@sentry/node-core" "9.42.0"
-    "@sentry/opentelemetry" "9.42.0"
+    "@sentry/core" "9.44.0"
+    "@sentry/node-core" "9.44.0"
+    "@sentry/opentelemetry" "9.44.0"
     import-in-the-middle "^1.14.2"
     minimatch "^9.0.0"
 
-"@sentry/opentelemetry@9.42.0":
-  version "9.42.0"
-  resolved "https://registry.yarnpkg.com/@sentry/opentelemetry/-/opentelemetry-9.42.0.tgz#46ac17ff92a480f96d5307224149e713e76a35fe"
-  integrity sha512-RdF2Pps9XH+oQpb/yBzG4+RyrQc5eJ55zi+kzY1cG5asPxqKfgBrniy9Q2szy3YJpvN73T//aPrasXuCTgWohg==
+"@sentry/opentelemetry@9.44.0":
+  version "9.44.0"
+  resolved "https://registry.yarnpkg.com/@sentry/opentelemetry/-/opentelemetry-9.44.0.tgz#cc8bcb4162d224e5f1604dd875efeecda4b8baf2"
+  integrity sha512-OeMiVoLqEXtpYE2VBAGmhK4GfbUa5ivDtL+AF4B+cR+NZkqZFlnA7ItquVfAa2Jd45TIyueEK8yjan5hluQYJQ==
   dependencies:
-    "@sentry/core" "9.42.0"
+    "@sentry/core" "9.44.0"
 
 "@tootallnate/quickjs-emscripten@^0.23.0":
   version "0.23.0"
@@ -433,9 +433,9 @@
     "@types/pg" "*"
 
 "@types/pg@*":
-  version "8.15.4"
-  resolved "https://registry.yarnpkg.com/@types/pg/-/pg-8.15.4.tgz#419f791c6fac8e0bed66dd8f514b60f8ba8db46d"
-  integrity sha512-I6UNVBAoYbvuWkkU3oosC8yxqH21f4/Jc4DK71JLG3dT2mdlGe1z+ep/LQGXaKaOgcvUrsQoPRqfgtMcvZiJhg==
+  version "8.15.5"
+  resolved "https://registry.yarnpkg.com/@types/pg/-/pg-8.15.5.tgz#ef43e0f33b62dac95cae2f042888ec7980b30c09"
+  integrity sha512-LF7lF6zWEKxuT3/OR8wAZGzkg4ENGXFNyiV/JeOt9z5B+0ZVwbql9McqX5c/WStFq1GaGso7H1AzP/qSzmlCKQ==
   dependencies:
     "@types/node" "*"
     pg-protocol "*"
@@ -922,7 +922,7 @@ legacy-javascript@latest:
   resolved "https://registry.yarnpkg.com/legacy-javascript/-/legacy-javascript-0.0.1.tgz#6bf2ac6b70b4555d9e4bfe9e4fc81675fede88cf"
   integrity sha512-lPyntS4/aS7jpuvOlitZDFifBCb4W8L/3QU0PLbUTUj+zYah8rfVjYic88yG7ZKTxhS5h9iz7duT8oUXKszLhg==
 
-lighthouse-logger@^2.0.0, lighthouse-logger@^2.0.1:
+lighthouse-logger@^2.0.0, lighthouse-logger@^2.0.1, lighthouse-logger@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-2.0.2.tgz#c0b39daee22035ce28551f3503c5935d0b5e1bf3"
   integrity sha512-vWl2+u5jgOQuZR55Z1WM0XDdrJT6mzMP8zHUct7xTlWhuQs+eV0g+QL0RQdFjT54zVmbhLCP8vIVpy1wGn/gCg==
@@ -936,9 +936,9 @@ lighthouse-stack-packs@1.12.2:
   integrity sha512-Ug8feS/A+92TMTCK6yHYLwaFMuelK/hAKRMdldYkMNwv+d9PtWxjXEg6rwKtsUXTADajhdrhXyuNCJ5/sfmPFw==
 
 lighthouse@^12.0.0:
-  version "12.8.0"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-12.8.0.tgz#38a680417d1235be77cecc9ee5bfef66de15335a"
-  integrity sha512-MNmHLGRsaApxrigFl6M4FSvat8opl6K4MnBRWdU3yEaTH5pzrDSWjdIL2cBdCoV7OgAD1Cy/cdBiXR+ZzdsBNw==
+  version "12.8.1"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-12.8.1.tgz#f9e18537187691e6d077099a7bb5bc57e8cfff3f"
+  integrity sha512-z0ceMjEM16C0HuADzMFgXe32BGJ7aJMSx48qTCcQYYjMUPxF1XWTP3rGXJEgB6P/VvS+yfp3TOMR3FpmLo0W3w==
   dependencies:
     "@paulirish/trace_engine" "0.0.57"
     "@sentry/node" "^9.28.1"
@@ -952,7 +952,7 @@ lighthouse@^12.0.0:
     intl-messageformat "^10.5.3"
     jpeg-js "^0.4.4"
     js-library-detector "^6.7.0"
-    lighthouse-logger "^2.0.1"
+    lighthouse-logger "^2.0.2"
     lighthouse-stack-packs "1.12.2"
     lodash-es "^4.17.21"
     lookup-closest-locale "6.2.0"
