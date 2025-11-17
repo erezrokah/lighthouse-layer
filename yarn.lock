@@ -13,9 +13,9 @@ bare-events@^2.5.4, bare-events@^2.7.0:
   integrity sha512-riJjyv1/mHLIPX4RwiK+oW9/4c3TEUeORHKefKAKnZ5kyslbN+HXowtbaVEqt4IMUB7OXlfixcs6gsFeo/jhiQ==
 
 bare-fs@^4.0.1:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.5.0.tgz#f3227b4bc79a65ca7e91a1c05be5919c7c7d8340"
-  integrity sha512-GljgCjeupKZJNetTqxKaQArLK10vpmK28or0+RwWjEl5Rk+/xG3wkpmkv+WrcBm3q1BwHKlnhXzR8O37kcvkXQ==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.5.1.tgz#498a20a332d4a7f0b310eb89b8d2319041aa1eef"
+  integrity sha512-zGUCsm3yv/ePt2PHNbVxjjn0nNB1MkIaR4wOCxJ2ig5pCf5cCVAYJXVhQg/3OhhJV6DB1ts7Hv0oUaElc2TPQg==
   dependencies:
     bare-events "^2.5.4"
     bare-path "^3.0.0"
