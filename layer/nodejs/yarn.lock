@@ -419,9 +419,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "25.0.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.2.tgz#411f9dd6cb2bf5ee46aed7199a9f85ca6b068b4e"
-  integrity sha512-gWEkeiyYE4vqjON/+Obqcoeffmk0NF15WSBwSs7zwVA2bAbTaE0SJ7P0WNGoJn8uE7fiaV5a7dKYIJriEqOrmA==
+  version "25.0.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.3.tgz#79b9ac8318f373fbfaaf6e2784893efa9701f269"
+  integrity sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==
   dependencies:
     undici-types "~7.16.0"
 
@@ -607,10 +607,10 @@ chrome-launcher@^1.0.0, chrome-launcher@^1.2.1:
     is-wsl "^2.2.0"
     lighthouse-logger "^2.0.1"
 
-chromium-bidi@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-11.0.0.tgz#193433d0722095abca0cada2fa0c5111b447bea3"
-  integrity sha512-cM3DI+OOb89T3wO8cpPSro80Q9eKYJ7hGVXoGS3GkDPxnYSqiv+6xwpIf6XERyJ9Tdsl09hmNmY94BkgZdVekw==
+chromium-bidi@12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-12.0.1.tgz#3edb1420ab5a52004c10c223b928622c128b4f27"
+  integrity sha512-fGg+6jr0xjQhzpy5N4ErZxQ4wF7KLEvhGZXD6EgvZKDhu7iOhZXnZhcDxPJDcwTcrD48NPzOCo84RP2lv3Z+Cg==
   dependencies:
     mitt "^3.0.1"
     zod "^3.24.1"
@@ -975,9 +975,9 @@ lighthouse@^13.0.0:
     yargs-parser "^21.0.0"
 
 lodash-es@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+  version "4.17.22"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.22.tgz#eb7d123ec2470d69b911abe34f85cb694849b346"
+  integrity sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==
 
 lookup-closest-locale@6.2.0:
   version "6.2.0"
@@ -1096,9 +1096,9 @@ postgres-array@~2.0.0:
   integrity sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==
 
 postgres-bytea@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/postgres-bytea/-/postgres-bytea-1.0.0.tgz#027b533c0aa890e26d172d47cf9ccecc521acd35"
-  integrity sha512-xy3pmLuQqRBZBXDULy7KbaitYqLcmxigw14Q5sj8QBVLqEwXfeybIKVWiqAXTlcvdvb0+xkOtDbfQMOf4lST1w==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/postgres-bytea/-/postgres-bytea-1.0.1.tgz#c40b3da0222c500ff1e51c5d7014b60b79697c7a"
+  integrity sha512-5+5HqXnsZPE65IJZSMkZtURARZelel2oXUEO8rH83VS/hxH5vv1uHquPg5wZs8yMAfdv971IU+kcPUczi7NVBQ==
 
 postgres-date@~1.0.4:
   version "1.0.7"
@@ -1145,16 +1145,16 @@ pump@^3.0.0:
     once "^1.3.1"
 
 puppeteer-core@^24.23.0:
-  version "24.33.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-24.33.0.tgz#c3e6adee5fd5dd77895d4cc14e0d17461048917a"
-  integrity sha512-tPTxVg+Qdj/8av4cy6szv3GlhxeOoNhiiMZ955fjxQyvPQE/6DjCa6ZyF/x0WJrlgBZtaLSP8TQgJb7FdLDXXA==
+  version "24.34.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-24.34.0.tgz#00c7f63b4a83d4ca2ec5ea3a234588fb2ce7c994"
+  integrity sha512-24evawO+mUGW4mvS2a2ivwLdX3gk8zRLZr9HP+7+VT2vBQnm0oh9jJEZmUE3ePJhRkYlZ93i7OMpdcoi2qNCLg==
   dependencies:
     "@puppeteer/browsers" "2.11.0"
-    chromium-bidi "11.0.0"
+    chromium-bidi "12.0.1"
     debug "^4.4.3"
     devtools-protocol "0.0.1534754"
     typed-query-selector "^2.12.0"
-    webdriver-bidi-protocol "0.3.9"
+    webdriver-bidi-protocol "0.3.10"
     ws "^8.18.3"
 
 require-directory@^2.1.1:
@@ -1342,10 +1342,10 @@ undici-types@~7.16.0:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
   integrity sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==
 
-webdriver-bidi-protocol@0.3.9:
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.3.9.tgz#89abf021f2a557a2dd81772f9ce7172b01f8a0f0"
-  integrity sha512-uIYvlRQ0PwtZR1EzHlTMol1G0lAlmOe6wPykF9a77AK3bkpvZHzIVxRE2ThOx5vjy2zISe0zhwf5rzuUfbo1PQ==
+webdriver-bidi-protocol@0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.3.10.tgz#437405564ff7e200371468f4f1eba1ff5537e119"
+  integrity sha512-5LAE43jAVLOhB/QqX4bwSiv0Hg1HBfMmOuwBSXHdvg4GMGu9Y0lIq7p4R/yySu6w74WmaR4GM4H9t2IwLW7hgw==
 
 when-exit@^2.1.4:
   version "2.1.5"
