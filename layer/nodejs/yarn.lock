@@ -324,10 +324,10 @@
   dependencies:
     "@opentelemetry/instrumentation" "^0.52.0 || ^0.53.0 || ^0.54.0 || ^0.55.0 || ^0.56.0 || ^0.57.0"
 
-"@puppeteer/browsers@2.11.1":
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-2.11.1.tgz#dad378d5d2d4764a3ab7316c9476105faa0d7c0b"
-  integrity sha512-YmhAxs7XPuxN0j7LJloHpfD1ylhDuFmmwMvfy/+6nBSrETT2ycL53LrhgPtR+f+GcPSybQVuQ5inWWu5MrWCpA==
+"@puppeteer/browsers@2.11.2":
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-2.11.2.tgz#54ac339579c23014535011e6dc04bf3157705d73"
+  integrity sha512-GBY0+2lI9fDrjgb5dFL9+enKXqyOPok9PXg/69NVkjW3bikbK9RQrNrI3qccQXmDNN7ln4j/yL89Qgvj/tfqrw==
   dependencies:
     debug "^4.4.3"
     extract-zip "^2.0.1"
@@ -419,9 +419,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "25.0.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.10.tgz#4864459c3c9459376b8b75fd051315071c8213e7"
-  integrity sha512-zWW5KPngR/yvakJgGOmZ5vTBemDoSqF3AcV/LrO5u5wTWyEAVVh+IT39G4gtyAkh3CtTZs8aX/yRM82OfzHJRg==
+  version "25.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.2.0.tgz#015b7d228470c1dcbfc17fe9c63039d216b4d782"
+  integrity sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==
   dependencies:
     undici-types "~7.16.0"
 
@@ -537,9 +537,9 @@ bare-events@^2.5.4, bare-events@^2.7.0:
   integrity sha512-riJjyv1/mHLIPX4RwiK+oW9/4c3TEUeORHKefKAKnZ5kyslbN+HXowtbaVEqt4IMUB7OXlfixcs6gsFeo/jhiQ==
 
 bare-fs@^4.0.1:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.5.2.tgz#d80ff8a9177e0db4818e7ba44b9302c0cf0788af"
-  integrity sha512-veTnRzkb6aPHOvSKIOy60KzURfBdUflr5VReI+NSaPL6xf+XLdONQgZgpYvUuZLVQ8dCqxpBAudaOM1+KpAUxw==
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/bare-fs/-/bare-fs-4.5.3.tgz#316cce9bcec66a5e49fb24ec2743f6b846a2f35c"
+  integrity sha512-9+kwVx8QYvt3hPWnmb19tPnh38c6Nihz8Lx3t0g9+4GoIf3/fTgYwM4Z6NxgI+B9elLQA7mLE9PpqcWtOMRDiQ==
   dependencies:
     bare-events "^2.5.4"
     bare-path "^3.0.0"
@@ -1145,11 +1145,11 @@ pump@^3.0.0:
     once "^1.3.1"
 
 puppeteer-core@^24.23.0:
-  version "24.36.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-24.36.0.tgz#6d4421b56b598bc503a4800f5204aaf2785d2ad3"
-  integrity sha512-P3Ou0MAFDCQ0dK1d9F9+8jTrg6JvXjUacgG0YkJQP4kbEnUOGokSDEMmMId5ZhXD5HwsHM202E9VwEpEjWfwxg==
+  version "24.36.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-24.36.1.tgz#8d60c80a27b86b3d1d948155ecab2deb404cc00f"
+  integrity sha512-L7ykMWc3lQf3HS7ME3PSjp7wMIjJeW6+bKfH/RSTz5l6VUDGubnrC2BKj3UvM28Y5PMDFW0xniJOZHBZPpW1dQ==
   dependencies:
-    "@puppeteer/browsers" "2.11.1"
+    "@puppeteer/browsers" "2.11.2"
     chromium-bidi "13.0.1"
     debug "^4.4.3"
     devtools-protocol "0.0.1551306"
@@ -1310,17 +1310,17 @@ third-party-web@latest:
   resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.29.0.tgz#28a6fd616510032f519018959cce828cd93fdfe2"
   integrity sha512-nBDSJw5B7Sl1YfsATG2XkW5qgUPODbJhXw++BKygi9w6O/NKS98/uY/nR/DxDq2axEjL6halHW1v+jhm/j1DBQ==
 
-tldts-core@^7.0.19:
-  version "7.0.19"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-7.0.19.tgz#9dd8a457a09b4e65c8266c029f1847fa78dead20"
-  integrity sha512-lJX2dEWx0SGH4O6p+7FPwYmJ/bu1JbcGJ8RLaG9b7liIgZ85itUVEPbMtWRVrde/0fnDPEPHW10ZsKW3kVsE9A==
+tldts-core@^7.0.21:
+  version "7.0.21"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-7.0.21.tgz#2869212dc8822b18789c9ac1492a52d536608d55"
+  integrity sha512-oVOMdHvgjqyzUZH1rOESgJP1uNe2bVrfK0jUHHmiM2rpEiRbf3j4BrsIc6JigJRbHGanQwuZv/R+LTcHsw+bLA==
 
 tldts-icann@^7.0.17:
-  version "7.0.19"
-  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-7.0.19.tgz#4a666423c47b5c9a8acf483142dc5cf7ad4db058"
-  integrity sha512-PZgda8E2cXMNa7QlBbiZh3vcS8UaPTDRIBmcGPDlujSMtQLrzjvikeJxzQSqWxn3muaMJ7BsC+aL464Yl2I6cA==
+  version "7.0.21"
+  resolved "https://registry.yarnpkg.com/tldts-icann/-/tldts-icann-7.0.21.tgz#fea3b4a41a1f0b10ba73d2523f7fc14c4a9e124f"
+  integrity sha512-cO9tYYUAz1LJ3NV22UdQSCvfVPvUDhNyvyS3UgPUuj3e//TgUOqqo7xnp2z/KI4PmfoBIITKxxL5vLSqneZndg==
   dependencies:
-    tldts-core "^7.0.19"
+    tldts-core "^7.0.21"
 
 tslib@^2.0.1, tslib@^2.8.0:
   version "2.8.1"
