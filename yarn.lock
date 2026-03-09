@@ -24,9 +24,9 @@ bare-fs@^4.0.1, bare-fs@^4.5.5:
     fast-fifo "^1.3.2"
 
 bare-os@^3.0.1:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.7.0.tgz#23c60064e53400db1550ef4b2987fdc42ee399b2"
-  integrity sha512-64Rcwj8qlnTZU8Ps6JJEdSmxBEUGgI7g8l+lMtsJLl4IsfTcHMTfJ188u2iGV6P6YPRZrtv72B2kjn+hp+Yv3g==
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.7.1.tgz#ec06b7b91a6638e307859803456a49760740a58f"
+  integrity sha512-ebvMaS5BgZKmJlvuWh14dg9rbUI84QeV3WlWn6Ph6lFI8jJoh7ADtVTyD2c93euwbe+zgi0DVrl4YmqXeM9aIA==
 
 bare-path@^3.0.0:
   version "3.0.0"
@@ -122,9 +122,9 @@ streamx@^2.12.5, streamx@^2.15.0, streamx@^2.21.0:
     text-decoder "^1.1.0"
 
 tar-fs@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.1.1.tgz#4f164e59fb60f103d472360731e8c6bb4a7fe9ef"
-  integrity sha512-LZA0oaPOc2fVo82Txf3gw+AkEd38szODlptMYejQUhndHMLQ9M059uXR+AfS7DNo0NpINvSqDsvyaCrBVkptWg==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.1.2.tgz#114b012f54796f31e62f3e57792820a80b83ae6e"
+  integrity sha512-QGxxTxxyleAdyM3kpFs14ymbYmNFrfY+pHj7Z8FgtbZ7w2//VAgLMac7sT6nRpIHjppXO2AwwEOg0bPFVRcmXw==
   dependencies:
     pump "^3.0.0"
     tar-stream "^3.1.5"
