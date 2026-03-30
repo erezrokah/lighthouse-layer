@@ -24,9 +24,9 @@ bare-fs@^4.0.1, bare-fs@^4.5.5:
     fast-fifo "^1.3.2"
 
 bare-os@^3.0.1:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.8.0.tgz#888541d443914e861abed02657a6ef1c50bbf383"
-  integrity sha512-Dc9/SlwfxkXIGYhvMQNUtKaXCaGkZYGcd1vuNUUADVqzu4/vQfvnMkYYOUnt2VwQ2AqKr/8qAVFRtwETljgeFg==
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/bare-os/-/bare-os-3.8.4.tgz#2d3a132ad63d0d29f28d42fb1610ec32bb6069f1"
+  integrity sha512-4JboWUl7/2LhgU536tjUszzaVC8/WEWKtyX5crayvlN71ih8+O2SdvBhotQeDsuhhmPZmLCrPBJEcwVPhI/kkQ==
 
 bare-path@^3.0.0:
   version "3.0.0"
@@ -36,9 +36,9 @@ bare-path@^3.0.0:
     bare-os "^3.0.1"
 
 bare-stream@^2.6.4:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/bare-stream/-/bare-stream-2.10.0.tgz#bd2671247541afa14084a64c30257a2408ad376a"
-  integrity sha512-DOPZF/DDcDruKDA43cOw6e9Quq5daua7ygcAwJE/pKJsRWhgSSemi7qVNGE5kyDIxIeN1533G/zfbvWX7Wcb9w==
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/bare-stream/-/bare-stream-2.11.0.tgz#12f82a5624658d05356ace4b7fd698f0fb402a84"
+  integrity sha512-Y/+iQ49fL3rIn6w/AVxI/2+BRrpmzJvdWt5Jv8Za6Ngqc6V227c+pYjYYgLdpR3MwQ9ObVXD0ZrqoBztakM0rw==
   dependencies:
     streamx "^2.25.0"
     teex "^1.0.1"
